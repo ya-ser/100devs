@@ -1,0 +1,52 @@
+body {
+  background-color: skyblue;
+  border: 5px solid purple;
+  padding: 5%;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+
+nav {
+  text-align: center;
+}
+
+span {
+  color: white;
+  font-family: 'Roberto', sans-serif;
+  font-weight: bold;
+}
+
+span span {
+  color: black;
+}
+
+a {
+  color: purple;
+}
+
+h2 {
+  color: white;
+  font-family: 'Roberto', sans-serif;
+  font-weight: bold;
+}
+
+img {
+  float: right;
+  width: 150px;
+  height: 200px;
+  margin: 0 0 1em 1em;
+}
+
+p {
+  color: white;
+  white-space: pre-line;
+}
+
+footer {
+  text-align: center;
+}

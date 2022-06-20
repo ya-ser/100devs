@@ -1,0 +1,40 @@
+h1 {
+  color: blue;
+  text-decoration: underline;
+  background-color: gold;
+}
+
+h2 {
+  color: purple;
+  font-weight: bold;
+  font-size: 24px;
+  border: 10px orange solid;
+}
+
+/* <p>Make this section width of 50%, height of 200px, background of gray, border of black, and the paragraph text
+white</p> */
+
+section {
+  width: 50%;
+  height: 200px;
+  background: gray;
+  border: 5px black solid;
+}
+
+p {
+  color: white;
+}
+
+/* <h3>Make this footer have a black background, with light green border, and this text 20px white plus a font-family
+			of Roboto</h3> */
+
+footer {
+  background: black;
+  border: 5px lightgreen solid;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Roberto', sans-serif;
+}

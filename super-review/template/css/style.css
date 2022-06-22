@@ -31,21 +31,17 @@ header,
 footer {
      height: 100px;
      border: 1px solid black;
-     clear: both;
 }
 
-.top {
-     height: 200px;
-     width: 33.3333%;
-     border: 1px solid black;
-     float: left;
+main,
+#bottom {
+     display: flex;
 }
 
-.bottom {
+section {
      height: 200px;
-     width: 50%;
      border: 1px solid black;
-     float: left;
+     flex: 1;
 }
 
 /******************************************

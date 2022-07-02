@@ -2,22 +2,22 @@ document.querySelector('#check').addEventListener('click', check)
 
 function check() {
 
-  const day = document.querySelector('#day').value
+  const day = document.querySelector('#day').value.toUpperCase()
 
   const h2 = document.querySelector('#placeToSee')
 
   //Conditionals go here
-  if (day === "Monday" || day === "monday") {
+  if (day === "MONDAY") {
     h2.innerText = "day is monday"
-  } else if (day === "Tuesday" || day === "tuesday") {
+  } else if (day === "TUESDAY") {
     h2.innerText = "day is tuesday"
-  } else if (day === "Wednesday" || day === "wednesday") {
+  } else if (day === "WEDNESDAY") {
     h2.innerText = "day is wednesday"
-  } else if (day === "Thursday" || day === "thursday") {
+  } else if (day === "THURSDAY") {
     h2.innerText = "day is thursday"
-  } else if (day === "Friday" || day === "friday") {
+  } else if (day === "FRIDAY") {
     h2.innerText = "day is friday"
-  } else if (day === "Saturday" || day === "saturday" || "Sunday" || day === "sunday") {
+  } else if (day === "SATURDAY" || day === "SUNDAY") {
     h2.innerText = "its the weekend"
   }
 

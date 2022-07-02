@@ -1,32 +1,17 @@
-document.querySelector('#yell').addEventListener('click', run)
+// goal: you done messed up "christopher gunther anthony smith"
+// i want the names passed in the form to be displayed as the yell
+
+// first make an event listener for the button click 
+document.querySelector('#yell').addEventListener('click', run);
 
 function run() {
-  const fName = document.querySelector('#firstName').value
-  const fMidName = document.querySelector('#firstMiddle').value
-  const lMidName = document.querySelector('#lastMiddle').value
-  const lName = document.querySelector('#lastName').value
+  const fn = document.querySelector('#firstName').value;
+  const fm = document.querySelector('#firstMiddle').value;
+  const lm = document.querySelector('#lastMiddle').value;
+  const ln = document.querySelector('#lastName').value;
 
-  document.querySelector('#placeToYell').innerText = fName + ' ' + fMidName + ' ' + ' ' + lMidName + ' ' + lName
+  const h2 = document.querySelector('#placeToYell');
 
-  //Add what you should be doing - conditionals go here
-
-  // document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}`
+  h2.innerText = `${fn} ${fm} ${lm} ${ln}!!!`;
 }
 
-// const synth = window.speechSynthesis;
-// document.querySelector('#yell').addEventListener('click', run)
-//
-// function run() {
-//   const fName = document.querySelector('#firstName').value
-//   const fMidName = document.querySelector('#firstMiddle').value
-//   const lMidName = document.querySelector('#lastMiddle').value
-//   const lName = document.querySelector('#lastName').value
-//
-//   const yellText =  `${fName} ${fMidName} ${lMidName} ${lName}`
-//
-//   document.querySelector('#placeToYell').innerText = yellText
-//
-//   let yellThis = new SpeechSynthesisUtterance(yellText);
-//
-//   synth.speak(yellThis);
-// }

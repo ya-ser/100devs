@@ -6,19 +6,19 @@ document.querySelector('#andiNext').addEventListener('click', /*INSERTCODE*/)
 document.querySelector('#claireNext').addEventListener('click', /*INSERTCODE*/)
 document.querySelector('#sharleenNext').addEventListener('click', /*INSERTCODE*/)
 
-function andiNext() {
+function andiNext(){
 	claire.classList.add(/*INSERTCODE*/)
 	sharleen.classList.add(/*INSERTCODE*/)
 	andi.classList.toggle(/*INSERTCODE*/)
 }
 
-function claireNext() {
+function claireNext(){
 	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
 	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
 	/*INSERTCODE*/.classList.toggle(/*INSERTCODE*/)
 }
 
-function sharleenNext() {
+function sharleenNext(){
 	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
 	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
 	/*INSERTCODE*/.classList.toggle(/*INSERTCODE*/)

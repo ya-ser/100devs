@@ -1,16 +1,14 @@
-// selects everything with the class .contestant
-const contestants = document.querySelectorAll('.contestant')
+// create an best anime tier list
+// 5 animes
+// onclick, if the anime clicked is the greated
+	// return the image
+// if not, alert that its wrong
 
-//puts a smurf on all elements with a class of constestant
-Array.from(contestants).forEach(element => element.addEventListener('click', checkForRose))
+// IDEA
+// maybe try to click them in order?
+// drag image to 1-5 and have a check button to see if the order is right, if it is then alert correct, else return wrong
 
-function checkForRose(click) {
-	// does the thing we selected have a class of rose?
-	if (click.target.classList.contains('rose')) {
-		// then show us the picture
-		document.querySelector('#nikki').classList.toggle('hidden')
-	} else {
-		// if it doesn't have the class of rose, show us that its wrong
-		alert("Wrong!");
-	}
-}
+// click the correct winner
+// onclick, you should see nikki's img
+// oncllick, you should see an alert for claire saying wrong
+

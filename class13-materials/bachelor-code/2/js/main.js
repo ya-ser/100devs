@@ -1,28 +1,36 @@
-const andi = document.querySelector('#andi')
-const claire = document.querySelector('#claire')
-const sharleen = document.querySelector('#sharleen')
+// when you click on a name, show the picture of the person
 
-document.querySelector('#andiNext').addEventListener('click', andiNext)
-document.querySelector('#claireNext').addEventListener('click', claireNext)
-document.querySelector('#sharleenNext').addEventListener('click', sharleenNext)
+// 1. Store all image selectors in variables to avoid repetition
+// 2. add smurfs on each h2
+// 3. Create functions for each name, that reveals image of person selected and hides other ones
 
+const andi = document.querySelector('#andi');
+
+const claire = document.querySelector('#claire');
+
+const sharleen = document.querySelector('#sharleen');
+
+document.querySelector('#andiNext').addEventListener('click', andiNext);
+
+document.querySelector('#claireNext').addEventListener('click', claireNext);
+
+document.querySelector('#sharleenNext').addEventListener('click', sharleenNext);
+
+// need to add (hidden) to the other ones so they go away when the one we want gets selected
 function andiNext() {
-	// we want to add the hidden class to sharleen and claire so that both of them go away when andi is clicked
-	// you don't need the . before hidden even tho its a class bc you already told it that by using the classList prop so adding a . would be redundent
-	claire.classList.add('hidden')
-	sharleen.classList.add('hidden')
-	//toggle is like a light switch, what we're doing here is toggling the hidden class off
-	andi.classList.toggle('hidden')
+	claire.classList.add('hidden');
+	sharleen.classList.add('hidden');
+	andi.classList.toggle('hidden');
 }
 
 function claireNext() {
-	andi.classList.add('hidden')
-	sharleen.classList.add('hidden')
-	claire.classList.toggle('hidden')
+	andi.classList.add('hidden');
+	sharleen.classList.add('hidden');
+	claire.classList.toggle('hidden');
 }
 
 function sharleenNext() {
-	andi.classList.add('hidden')
-	claire.classList.add('hidden')
-	sharleen.classList.toggle('hidden')
+	claire.classList.add('hidden');
+	andi.classList.add('hidden');
+	sharleen.classList.toggle('hidden');
 }
